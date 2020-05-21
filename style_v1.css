@@ -95,6 +95,8 @@
 		}
 		.writing_body p{
 			font-family:"verdana" ;
+			line-height: 2;
+			font-size:1.2em;
 		}
 		.notice{
 			font-family:"arial black";

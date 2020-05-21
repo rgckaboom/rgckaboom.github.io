@@ -1,0 +1,104 @@
+		/*For the body*/
+
+		body{
+			padding:3%;
+		}
+		/*For the head part*/
+		.head_part {
+			margin:auto ;
+			width:80%;
+		}
+		.head_part a{
+			font-family:"arial";
+			font-size:1.5em;
+			color: black;
+			text-decoration: none;
+
+		}
+		.head_part span{
+			color:grey;
+			font-family:"courier";
+			font-weight:bold;
+		}
+
+
+
+		/* Now that's how you make different CSS styled lists*/
+		.horizontal_list ul {
+			
+			  list-style-type: none;
+			  margin: auto;
+			  padding: 2px;
+			  overflow: hidden;
+			  background-color: transparent;	
+			  width:80%;
+
+		}
+		.horizontal_list li {
+			  float: left;
+
+		}
+
+		.horizontal_list li a {
+			  display: block;
+			  color: black;
+			  text-align: center;
+			  padding: 16px;
+			  text-decoration: none;
+			  border-radius:10px;
+		}
+		.horizontal_list li a:hover{
+			  background-color: transparent;
+			  color:black;
+			  font-weight: bold;
+			  border-bottom:2px solid grey;
+		}
+		/* notice this neat thing over here to make the li active for the active page*/
+		.horizontal_list li.active a{
+			  background-color: rgb(44, 44, 46);
+			  color:white;
+			  font-weight: bold;
+		}
+		#the_line{
+			padding-top:30px;
+			padding-bottom:2px;
+			width:5em;
+			margin-left:9%;
+		}
+		#the_line hr{
+			height:0.3em;
+			color:gray;
+			background-color:grey;
+		}
+			/*For the writing body*/
+		
+
+		.writing_body{
+			margin-left:10%;
+			width:60%;
+			padding:13px;
+			margin-top:0px;
+		}
+		.writing_body h2 a{
+			font-family:"verdana";
+			font-weight:bold;
+			font-size:2em;
+			color:white;
+			background-color:grey;
+			display: inline-block;
+			padding:5px;
+			border-radius: 3px;
+			text-decoration: none;
+		}
+		.writing_body h2 a:hover{
+			background-color: rgb(44, 44, 46);
+		}
+		.writing_body p{
+			font-family:"verdana" ;
+		}
+		.notice{
+			font-family:"arial black";
+			font-weight: bold;
+			font-size:1.1em;
+			color:rgb(156, 51, 51);
+		}

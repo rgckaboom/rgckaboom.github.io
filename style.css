@@ -443,6 +443,21 @@ footer #social-media-footer ul li:hover a .fa-github{
 
 
 /* Media Queries */
+
+
+@media(max-width:599px){
+    main{
+        width:100%;
+    }
+    .card{
+        width:98%;
+    }
+    .card-image img{
+        width:100%;
+    }
+}
+
+
 @media(max-width:900px){
     nav ul{
         display: none;
@@ -516,6 +531,9 @@ footer #social-media-footer ul li:hover a .fa-github{
         padding:0;
     }
 }
+
+
+
 
 @media (min-width: 720px){
     main{

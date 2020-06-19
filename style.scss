@@ -1,0 +1,79 @@
+// Make sure to include
+// for the dancing script <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+// for 'MuseoModerno' <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">  
+$navFont : 'Dancing Script', cursive;
+
+$bannerFont : 'MuseoModerno', cursive;
+
+%font-nav {
+    font-family: $navFont;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    margin-left: 5rem;
+    @extend %font-nav;
+}
+.nav-link{
+    @extend %font-nav;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+#banner{
+    font-family: $bannerFont;
+    font-size: 1.3rem;
+    height:70vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background:rgba(0,0,0,0.3) url('img/komorebi2.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    /* So that the back ground image is fixed
+    and not moving with the page */
+    background-position:center;
+    background-blend-mode: overlay;
+    /* Background color mixed with the background color
+    to reflect lightness or darkness of the backdrop */
+    color:white;
+}
+// Section
+
+section{
+    margin-top:2rem;
+}
+
+@media (max-width:992px){
+    .team-heading{
+        font-family: $bannerFont;
+    }
+}
+
+@media (min-width:993px){
+    .team-heading{
+        font-family: $navFont;
+    }
+}
+
+
+
+
+// Footer
+
+footer{
+    background:#F8F9FA;
+    padding:0.5rem;
+    @extend %font-nav;
+}
+.logo-span{
+    margin-left:2rem;
+    a{
+        img:hover{
+            width:32px;
+        }
+    }
+}
+
+

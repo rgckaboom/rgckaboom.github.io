@@ -1,0 +1,62 @@
+footer, .nav-link, .navbar-brand {
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#banner {
+  font-family: "MuseoModerno", cursive;
+  font-size: 1.3rem;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.3) url("img/komorebi2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* So that the back ground image is fixed
+  and not moving with the page */
+  background-position: center;
+  background-blend-mode: overlay;
+  /* Background color mixed with the background color
+  to reflect lightness or darkness of the backdrop */
+  color: white;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .team-heading {
+    font-family: "MuseoModerno", cursive;
+  }
+}
+@media (min-width: 993px) {
+  .team-heading {
+    font-family: "Dancing Script", cursive;
+  }
+}
+footer {
+  background: #F8F9FA;
+  padding: 0.5rem;
+}
+
+.logo-span {
+  margin-left: 2rem;
+}
+.logo-span a img:hover {
+  width: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */
